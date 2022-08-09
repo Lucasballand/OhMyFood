@@ -1,3 +1,40 @@
+/* -- Classic properties -- */
+
+p
+{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+body
+{
+    margin: 0;
+}
+
+.Display_Inline_Flex
+{
+    display: inline-flex;
+}
+
+.GreyLightColor
+{
+    background-color: lightgrey;
+}
+
+.ShadowBoxHeader
+{
+    box-shadow: 3px 0px 15px 3px green;
+}
+
+/* -- CSS du header -- */
+
+.Element_Center
+{
+    text-align: center;
+}
+
+/* -- Fin CSS du header -- */
+
 .image_size
 {
     width: 50%;
