@@ -8,6 +8,7 @@ p
 
 body
 {
+    font-family: 'Roboto', sans-serif ;
     margin: 0;
 }
 
@@ -16,21 +17,37 @@ body
     display: inline-flex;
 }
 
-.GreyLightColor
+.BackgroundGreyColor
 {
-    background-color: lightgrey;
-}
-
-.ShadowBoxHeader
-{
-    box-shadow: 3px 0px 15px 3px green;
+    background-color: #EAEAEA;
 }
 
 /* -- CSS du header -- */
 
+.Logo_Nav
+{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
 .Element_Center
 {
     text-align: center;
+}
+
+.TextHeader
+{
+    margin-left: 15px;
+}
+
+.ShadowBoxHeader
+{
+    box-shadow: inset 0px 20px 15px -26px black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
 }
 
 /* -- Fin CSS du header -- */
