@@ -1,5 +1,19 @@
 /* -- Classic properties -- */
 
+
+.DisplayFlexColumn
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.DisplayFlexColumn_2
+{
+    display: flex;
+    flex-direction: column;
+}
+
 p
 {
     margin-block-start: unset;
@@ -35,12 +49,48 @@ body
     display: inline-flex;
 }
 
+.CenterAlignSelf
+{
+    align-self: center;
+
+    color: darkslategray;
+}
+
 .BackgroundGreyColor
 {
     background-color: #EAEAEA;
 }
 
+.IconSize
+{
+    font-size: small;
+}
+.MarginTop20
+{
+    margin-top: 20px;
+}
+
+.MarginBottom20
+{
+    margin-bottom: 20px;
+}
+
+.MarginRight15
+{
+    margin-right: 15px;
+}
+
+.ColorWhite
+{
+    color: white;
+}
+
 /* -- CSS du header -- */
+
+.ColorTextHeader
+{
+    color: #9356DC;
+}
 
 .Logo_Nav
 {
@@ -72,8 +122,8 @@ body
 
 .image_size
 {
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 160px;
 }
 
 /* -- Première Div -- */
@@ -87,5 +137,89 @@ body
 {
     font-size: 30px;
     font-weight: bold;
+    padding: 15px;
+}
+
+.ButtonStyle
+{
+    border-width: 0;
+    border-radius: 20px 20px 20px 20px;
+    width: 50%;
+    height: 40px;
+    background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+    color: white;
+    box-shadow: 2px 2px 10px #00000033;
+}
+
+.Text_1
+{
+    font-weight: 500;
+}
+
+.Text_2
+{
+    font-weight: 300;
+    font-size: large;
+}
+
+
+/* -- Fin première DIv -- */
+
+/* -- Fonctionnement CSS -- */
+
+.CarreFonctionnement
+{
+    background-color: #F7F6F5DA;
+    text-align: center;
+    width: 90%;
+    height: 70px;
+    justify-content: center;
+    box-shadow:  2px 2px 10px #00000033;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-flex;
+}
+
+/* -- Fin Fonctionnement CSS -- */
+
+/* -- Bloc hébergements -- */
+
+.CarreRestaurant
+{
+    background-color: white;
+    height: 240px;
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 3px 0px 15px 3px#83838386;
+    margin-top: 40px;
+    align-self: center;
+}
+
+
+.ImagesRestaurants
+{
+    width: 100%;
+    height: 160px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+
+.MarginLeftRestaurant
+{
+    margin-left: 20px;
+}
+
+/* -- Footer -- */
+
+.TextTitleFooter
+{
+    font-family: 'Shrikhand', sans-serif;
+    font-weight: 100;
+}
+
+.BackgroundFooter
+{
+    background-color: #2c2c2c;
+    height: 200px;
     padding: 15px;
 }
