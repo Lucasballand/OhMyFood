@@ -115,20 +115,43 @@ body
 
 /* -- Animation CSS -- */
 
-.CarreRestaurant2:hover
-{
-    padding-right: 40px;
-    padding-right: 40px solid #00ff99;
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
 }
 
-.CarreRestaurant2 > :first-child
-{
-    margin-top: 0;
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
 }
 
-.CarreRestaurant2 > :last-child
-{
-    margin-bottom: 0;
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
 }
 
 /* -- CSS du header -- */
@@ -297,6 +320,13 @@ body
     margin-left: 20px;
 }
 
+.SectionRestaurant
+{
+    z-index: 2;
+    border-radius: 35px 35px 0 0 ;
+    position: relative;
+    background-color: #F7F6F5;
+}
 /* -- Fin Bloc Restaurants -- */
 
 /* -- Header des pages de commandes des restaurants -- */
