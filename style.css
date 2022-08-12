@@ -113,6 +113,24 @@ body
     text-align: -webkit-center;
 }
 
+/* -- Animation CSS -- */
+
+.CarreRestaurant2:hover
+{
+    padding-right: 40px;
+    padding-right: 40px solid #00ff99;
+}
+
+.CarreRestaurant2 > :first-child
+{
+    margin-top: 0;
+}
+
+.CarreRestaurant2 > :last-child
+{
+    margin-bottom: 0;
+}
+
 /* -- CSS du header -- */
 
 .ColorTextHeader
@@ -240,6 +258,8 @@ body
     box-shadow: 3px 0px 15px 3px#83838386;
     margin-top: 40px;
     align-self: center;
+    border-left: 0 solid #00ff99;
+    transition: border-right 300ms ease-in-out, padding-right 300ms ease-in-out;
 }
 
 .CarreRestaurant2
