@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+.JustifyCenter
+{
+    justify-content: center;
+}
+
 .FlexBetween
 {
     display: flex;
@@ -27,7 +32,6 @@
 {
     display: flex;
     align-items: center;
-    justify-content: space-around;
 }
 
 p
@@ -164,7 +168,7 @@ body
 .Logo_Nav
 {
     margin-top: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 .Element_Center
@@ -185,6 +189,14 @@ body
     justify-content: center;
     align-items: center;
     font-weight: 500;
+}
+
+.BoutonHeader
+{
+    display: flex;
+    padding: 50px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 /* -- Fin CSS du header -- */
