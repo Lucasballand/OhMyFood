@@ -38,7 +38,15 @@ p
 {
     margin-block-start: unset;
     margin-block-end: unset;
-    text-decoration: noneq;
+    text-decoration: none;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.OverflowHidden
+{
+    text-overflow: ellipsis;
 }
 
 h1
@@ -118,6 +126,12 @@ body
 }
 
 /* -- Animation CSS -- */
+
+.CarreRestaurant2:hover
+{
+    transition: 300ms ease-in-out;
+    border-right: 80px solid #99E2D0;
+}
 
 @keyframes fadeInUp {
     from {
@@ -243,6 +257,18 @@ body
     font-size: large;
 }
 
+.BorderRadiusCircle
+{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #9356DC;
+    color: white;
+    justify-content: center;
+}
+
 
 /* -- Fin première DIv -- */
 
@@ -300,7 +326,7 @@ body
 .CarreRestaurant2
 {
     background-color: white;
-    height: 60px;
+    height: 70px;
     width: 95%;
     border-radius: 20px;
     box-shadow: 3px 0px 15px 3px #83838386;
