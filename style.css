@@ -35,6 +35,8 @@ p {
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
 }
 
 .OverflowHidden {
@@ -55,6 +57,16 @@ h3 {
     margin-block-start: unset;
     margin-block-end: unset;
     text-decoration: none;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.h3TitreMenu {
+    margin-block-start: unset;
+    margin-block-end: unset;
+    text-decoration: none;
+    text-overflow: unset;
+    overflow: unset;
 }
 
 a {
@@ -291,6 +303,10 @@ body {
     box-shadow: 3px 0px 15px 3px #83838386;
     margin-top: 15px;
     align-self: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
 }
 
 
