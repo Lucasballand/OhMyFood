@@ -1,0 +1,22 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "Projet 3 OpenClassrooms",
+  "main": "index.js",
+  "scripts": {
+    "sasswatch": "sass --watch style.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucasballand/OhMyFood.git"
+  },
+  "author": "BALLAND Lucas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucasballand/OhMyFood/issues"
+  },
+  "homepage": "https://github.com/Lucasballand/OhMyFood#readme",
+  "dependencies": {
+    "sass": "^1.54.7"
+  }
+}

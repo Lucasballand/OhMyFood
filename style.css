@@ -1,420 +1,400 @@
+@charset "UTF-8";
 /* -- Classic properties -- */
-
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .JustifyCenter {
-    justify-content: center;
+  justify-content: center;
 }
 
 .FlexBetween {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .DisplayFlexColumn {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .DisplayFlexColumn_2 {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .AlignItemsCenter {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 p {
-    margin-block-start: unset;
-    margin-block-end: unset;
-    text-decoration: none;
-    width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: inline-block;
+  margin-block-start: unset;
+  margin-block-end: unset;
+  text-decoration: none;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
 }
 
 .OverflowHidden {
-    text-overflow: ellipsis;
+  text-overflow: ellipsis;
 }
 
 h1 {
-    margin-block-start: unset;
-    margin-block-end: unset;
+  margin-block-start: unset;
+  margin-block-end: unset;
 }
 
 h2 {
-    margin-block-start: unset;
-    margin-block-end: unset;
+  margin-block-start: unset;
+  margin-block-end: unset;
 }
 
 h3 {
-    margin-block-start: unset;
-    margin-block-end: unset;
-    text-decoration: none;
-    text-overflow: ellipsis;
-    overflow: hidden;
+  margin-block-start: unset;
+  margin-block-end: unset;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .h3TitreMenu {
-    margin-block-start: unset;
-    margin-block-end: unset;
-    text-decoration: none;
-    text-overflow: unset;
-    overflow: unset;
+  margin-block-start: unset;
+  margin-block-end: unset;
+  text-decoration: none;
+  text-overflow: unset;
+  overflow: unset;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
 }
 
 .Display_Inline_Flex {
-    display: inline-flex;
+  display: inline-flex;
 }
 
 .CenterAlignSelf {
-    align-self: center;
-    color: darkslategray;
+  align-self: center;
+  color: darkslategray;
 }
 
 .BackgroundGreyColor {
-    background-color: #EAEAEA;
+  background-color: #EAEAEA;
 }
 
 .IconSize {
-    font-size: small;
+  font-size: small;
 }
 
 .MarginTop20 {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .MarginBottom20 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .MarginRight15 {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 .ColorWhite {
-    color: white;
+  color: white;
 }
 
 .WebKit_Center {
-    text-align: -webkit-center;
+  text-align: -webkit-center;
 }
 
 /* -- Animation CSS -- */
-
 .CarreRestaurant2:hover {
-    transition: 300ms ease-in-out;
-    border-right: 80px solid #99E2D0;
+  transition: 300ms ease-in-out;
+  border-right: 80px solid #99E2D0;
 }
 
 @keyframes fadeInUp {
-    from {
-        transform: translate3d(0, 40px, 0)
-    }
-
-    to {
-        transform: translate3d(0, 0, 0);
-        opacity: 1
-    }
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
 }
-
 @-webkit-keyframes fadeInUp {
-    from {
-        transform: translate3d(0, 40px, 0)
-    }
-
-    to {
-        transform: translate3d(0, 0, 0);
-        opacity: 1
-    }
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
 }
-
 .animated {
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-fill-mode: both
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
 }
 
 .animatedFadeInUp {
-    opacity: 0
+  opacity: 0;
 }
 
 .fadeInUp {
-    opacity: 0;
-    animation-name: fadeInUp;
-    -webkit-animation-name: fadeInUp;
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
 }
 
 /* -- CSS du header -- */
-
 .ColorTextHeader {
-    color: #535254;
+  color: #535254;
 }
 
 .Logo_Nav {
-    margin-top: 20px;
-    margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .Element_Center {
-    text-align: center;
+  text-align: center;
 }
 
 .TextHeader {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
 .ShadowBoxHeader {
-    box-shadow: inset 0px 20px 15px -26px black;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 500;
+  box-shadow: inset 0px 20px 15px -26px black;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
 }
 
 .BoutonHeader {
-    display: flex;
-    padding: 50px;
-    padding-top: 0;
-    padding-bottom: 0;
+  display: flex;
+  padding: 50px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 /* -- Fin CSS du header -- */
-
 .image_size {
-    width: 100%;
-    height: 160px;
+  width: 100%;
+  height: 160px;
 }
 
 /* -- Première Div -- */
-
 .BackgroundGreyColor2 {
-    background-color: #F7F6F5;
+  background-color: #F7F6F5;
 }
 
 .H1modif {
-    font-size: 30px;
-    font-weight: bold;
-    padding: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 15px;
 }
 
 .ButtonStyle {
-    border-width: 0;
-    border-radius: 20px 20px 20px 20px;
-    width: 35%;
-    height: 40px;
-    background: linear-gradient(to bottom right, #FF79DA, #9356DC);
-    color: white;
-    box-shadow: 2px 2px 10px #00000033;
+  border-width: 0;
+  border-radius: 20px 20px 20px 20px;
+  width: 35%;
+  height: 40px;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+  color: white;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 .Text_1 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .Text_2 {
-    font-weight: 300;
-    font-size: large;
+  font-weight: 300;
+  font-size: large;
 }
 
 .BorderRadiusCircle {
-    width: 25px;
-    height: 25px;
-    display: flex;
-    align-items: center;
-    border-radius: 100px;
-    background-color: #9356DC;
-    color: white;
-    justify-content: center;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  border-radius: 100px;
+  background-color: #9356DC;
+  color: white;
+  justify-content: center;
 }
 
-
 /* -- Fin première DIv -- */
-
 /* -- Fonctionnement CSS -- */
-
 .CarreFonctionnement {
-    background-color: #F7F6F5DA;
-    text-align: center;
-    width: 90%;
-    height: 70px;
-    justify-content: center;
-    box-shadow: 2px 2px 10px #00000033;
-    border-radius: 20px;
-    text-align: center;
-    display: inline-flex;
-    place-self: center;
+  background-color: rgba(247, 246, 245, 0.8549019608);
+  text-align: center;
+  width: 90%;
+  height: 70px;
+  justify-content: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  text-align: center;
+  display: inline-flex;
+  place-self: center;
 }
 
 /* -- Fin Fonctionnement CSS -- */
-
 /* -- Bloc Restaurants -- */
-
 .TypoTextEntree {
-    font-size: medium;
-    font-weight: 300;
-    margin-left: 25px;
-    margin-top: 30px;
-    border-bottom-style: solid;
-    width: 10%;
-    border-color: #99E2D0;
+  font-size: medium;
+  font-weight: 300;
+  margin-left: 25px;
+  margin-top: 30px;
+  border-bottom-style: solid;
+  width: 10%;
+  border-color: #99E2D0;
 }
 
 .MargeLeftRightTop {
-    padding: 25px;
-    padding-bottom: 0;
+  padding: 25px;
+  padding-bottom: 0;
 }
 
 .CarreRestaurant {
-    background-color: white;
-    height: 240px;
-    width: 90%;
-    border-radius: 20px;
-    box-shadow: 3px 0px 15px 3px#83838386;
-    margin-top: 40px;
-    align-self: center;
-    border-left: 0 solid #00ff99;
-    transition: border-right 300ms ease-in-out, padding-right 300ms ease-in-out;
+  background-color: white;
+  height: 240px;
+  width: 90%;
+  border-radius: 20px;
+  box-shadow: 3px 0px 15px 3px rgba(131, 131, 131, 0.5254901961);
+  margin-top: 40px;
+  align-self: center;
+  border-left: 0 solid #00ff99;
+  transition: border-right 300ms ease-in-out, padding-right 300ms ease-in-out;
 }
 
 .CarreRestaurant2 {
-    background-color: white;
-    height: 70px;
-    width: 95%;
-    border-radius: 20px;
-    box-shadow: 3px 0px 15px 3px #83838386;
-    margin-top: 15px;
-    align-self: center;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: inline-block;
+  background-color: white;
+  height: 70px;
+  width: 95%;
+  border-radius: 20px;
+  box-shadow: 3px 0px 15px 3px rgba(131, 131, 131, 0.5254901961);
+  margin-top: 15px;
+  align-self: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
 }
 
-
 .ImagesRestaurants {
-    width: 100%;
-    height: 160px;
-    border-radius: 20px 20px 0 0;
-    object-fit: cover;
-    position: relative;
+  width: 100%;
+  height: 160px;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+  position: relative;
 }
 
 .ImagesRestaurants2 {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: relative;
-    display: flex;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  display: flex;
 }
 
 .MarginLeftRestaurant {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .SectionRestaurant {
-    z-index: 2;
-    border-radius: 35px 35px 0 0;
-    position: relative;
-    background-color: #F7F6F5;
+  z-index: 2;
+  border-radius: 35px 35px 0 0;
+  position: relative;
+  background-color: #F7F6F5;
 }
 
 /* -- Fin Bloc Restaurants -- */
-
 /* -- Header des pages de commandes des restaurants -- */
-
 .BlocSizeImage {
-    block-size: 200px;
-    width: 100%;
+  block-size: 200px;
+  width: 100%;
 }
 
 .BlocTextUnderImage {
-    z-index: 2;
-    border-radius: 35px 35px 0 0;
-    position: relative;
+  z-index: 2;
+  border-radius: 35px 35px 0 0;
+  position: relative;
 }
 
 .BlocTextUnderImage2 {
-    z-index: 2;
-    position: relative;
+  z-index: 2;
+  position: relative;
 }
 
 /* -- Fin du header des pages de commandes des restaurants -- */
-
 /* -- Footer -- */
-
 .TextTitleFooter {
-    font-family: 'Shrikhand', sans-serif;
-    font-weight: 100;
+  font-family: "Shrikhand", sans-serif;
+  font-weight: 100;
 }
 
 .None-Decoration {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .Lien-Footer {
-    color: black;
+  color: black;
 }
 
 .BackgroundFooter {
-    background-color: #2c2c2c;
-    height: 200px;
-    padding: 15px;
+  background-color: #2c2c2c;
+  height: 200px;
+  padding: 15px;
 }
 
 /* -- Icon modifs -- */
-
 .IconSizeModif {
-    font-size: xx-large;
+  font-size: xx-large;
 }
 
 /* -- Fin Icon Modifs -- */
-
 /* -- Spinner Loader -- */
-
 .SpinnerLoader {
-    position: fixed;
-    display: grid;
-    place-items: center;
-    height: 100%;
-    width: 100%;
-    background-color: #ffffff;
-    inset: 0;
-    z-index: 1;
-    opacity: 0.9;
-    animation: disparition 500ms 3s forwards;
-    transform-origin: top;
+  position: fixed;
+  display: grid;
+  place-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  inset: 0;
+  z-index: 1;
+  opacity: 0.9;
+  animation: disparition 500ms 3s forwards;
+  transform-origin: top;
 }
 
 @keyframes disparition {
-    from {
-        transform:scale (1);
-    }
-    to{
-        transform: scale(0);
-    }
+  from {
+    transform: scale 1;
+  }
+  to {
+    transform: scale(0);
+  }
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-@keyframes spin {
-    to {
-        transform: rotate(360deg);
-    }
-}
+/*# sourceMappingURL=style.css.map */
