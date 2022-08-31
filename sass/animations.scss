@@ -45,18 +45,30 @@
 /* -- Spinner Loader -- */
 
 .SpinnerLoader {
+    $animation-duration: 3s;
+    $animation-count: 3;
     position: fixed;
     display: grid;
     place-items: center;
     height: 100%;
     width: 100%;
-    background-color: #ffffff;
     inset: 0;
-    z-index: 1;
+    background-color: #ffffff;
     opacity: 0.9;
-    animation: disparition 500ms 3s forwards;
+    z-index: 1;
+    animation: disparition 500ms $animation-duration * $animation-count forwards;
     transform-origin: top;
+    &::after {
+        content: "";
+        height: 100px;
+        width: 100px;
+        border-right: 5px solid transparent;
+        border-top: 5px solid #9356dc;
+        border-radius: 50%;
+        animation: spin $animation-duration infinite linear;
+    }
 }
+
 
 @keyframes disparition {
     from {
