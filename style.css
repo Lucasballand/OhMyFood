@@ -148,7 +148,6 @@ body {
   padding-bottom: 0;
 }
 
-/* -- Animation CSS -- */
 .CarreRestaurant2:hover {
   transition: 300ms ease-in-out;
   border-right: 80px solid #99E2D0;
@@ -189,8 +188,34 @@ body {
   -webkit-animation-name: fadeInUp;
 }
 
-/* -- CSS du header -- */
-/* -- Fin CSS du header -- */
+/* -- Spinner Loader -- */
+.SpinnerLoader {
+  position: fixed;
+  display: grid;
+  place-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  inset: 0;
+  z-index: 1;
+  opacity: 0.9;
+  animation: disparition 500ms 3s forwards;
+  transform-origin: top;
+}
+
+@keyframes disparition {
+  from {
+    transform: scale 1;
+  }
+  to {
+    transform: scale(0);
+  }
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
 .image_size {
   width: 100%;
   height: 160px;
@@ -367,33 +392,5 @@ body {
 }
 
 /* -- Fin Icon Modifs -- */
-/* -- Spinner Loader -- */
-.SpinnerLoader {
-  position: fixed;
-  display: grid;
-  place-items: center;
-  height: 100%;
-  width: 100%;
-  background-color: #ffffff;
-  inset: 0;
-  z-index: 1;
-  opacity: 0.9;
-  animation: disparition 500ms 3s forwards;
-  transform-origin: top;
-}
-
-@keyframes disparition {
-  from {
-    transform: scale 1;
-  }
-  to {
-    transform: scale(0);
-  }
-}
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 /*# sourceMappingURL=style.css.map */

@@ -1,58 +1,6 @@
 @import "./sass/base.scss";
 @import "./sass/layouts/header.scss";
-
-
-/* -- Animation CSS -- */
-
-.CarreRestaurant2:hover {
-    transition: 300ms ease-in-out;
-    border-right: 80px solid #99E2D0;
-}
-
-@keyframes fadeInUp {
-    from {
-        transform: translate3d(0, 40px, 0)
-    }
-
-    to {
-        transform: translate3d(0, 0, 0);
-        opacity: 1
-    }
-}
-
-@-webkit-keyframes fadeInUp {
-    from {
-        transform: translate3d(0, 40px, 0)
-    }
-
-    to {
-        transform: translate3d(0, 0, 0);
-        opacity: 1
-    }
-}
-
-.animated {
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-fill-mode: both
-}
-
-.animatedFadeInUp {
-    opacity: 0
-}
-
-.fadeInUp {
-    opacity: 0;
-    animation-name: fadeInUp;
-    -webkit-animation-name: fadeInUp;
-}
-
-/* -- CSS du header -- */
-
-
-
-/* -- Fin CSS du header -- */
+@import "./sass/animations.scss";
 
 .image_size {
     width: 100%;
@@ -243,33 +191,3 @@
 
 /* -- Fin Icon Modifs -- */
 
-/* -- Spinner Loader -- */
-
-.SpinnerLoader {
-    position: fixed;
-    display: grid;
-    place-items: center;
-    height: 100%;
-    width: 100%;
-    background-color: #ffffff;
-    inset: 0;
-    z-index: 1;
-    opacity: 0.9;
-    animation: disparition 500ms 3s forwards;
-    transform-origin: top;
-}
-
-@keyframes disparition {
-    from {
-        transform:scale (1);
-    }
-    to{
-        transform: scale(0);
-    }
-}
-
-@keyframes spin {
-    to {
-        transform: rotate(360deg);
-    }
-}
