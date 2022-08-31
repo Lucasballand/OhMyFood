@@ -1,0 +1,32 @@
+.ColorTextHeader {
+    color: #535254;
+}
+
+.Logo_Nav {
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+.Element_Center {
+    text-align: center;
+}
+
+.TextHeader {
+    margin-left: 15px;
+}
+
+.ShadowBoxHeader {
+    box-shadow: inset 0px 20px 15px -26px black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.BoutonHeader {
+    display: flex;
+    padding: 50px;
+    padding-top: 0;
+    padding-bottom: 0;
+}

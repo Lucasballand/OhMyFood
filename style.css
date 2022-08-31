@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/* -- Classic properties -- */
 * {
   box-sizing: border-box;
 }
@@ -116,6 +115,39 @@ body {
   text-align: -webkit-center;
 }
 
+.ColorTextHeader {
+  color: #535254;
+}
+
+.Logo_Nav {
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+
+.Element_Center {
+  text-align: center;
+}
+
+.TextHeader {
+  margin-left: 15px;
+}
+
+.ShadowBoxHeader {
+  box-shadow: inset 0px 20px 15px -26px black;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+
+.BoutonHeader {
+  display: flex;
+  padding: 50px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 /* -- Animation CSS -- */
 .CarreRestaurant2:hover {
   transition: 300ms ease-in-out;
@@ -158,39 +190,6 @@ body {
 }
 
 /* -- CSS du header -- */
-.ColorTextHeader {
-  color: #535254;
-}
-
-.Logo_Nav {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.Element_Center {
-  text-align: center;
-}
-
-.TextHeader {
-  margin-left: 15px;
-}
-
-.ShadowBoxHeader {
-  box-shadow: inset 0px 20px 15px -26px black;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 500;
-}
-
-.BoutonHeader {
-  display: flex;
-  padding: 50px;
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
 /* -- Fin CSS du header -- */
 .image_size {
   width: 100%;

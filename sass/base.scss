@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+.JustifyCenter {
+    justify-content: center;
+}
+
+.FlexBetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+.DisplayFlexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.DisplayFlexColumn_2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.AlignItemsCenter {
+    display: flex;
+    align-items: center;
+}
+
+p {
+    margin-block-start: unset;
+    margin-block-end: unset;
+    text-decoration: none;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+
+.OverflowHidden {
+    text-overflow: ellipsis;
+}
+
+h1 {
+    margin-block-start: unset;
+    margin-block-end: unset;
+}
+
+h2 {
+    margin-block-start: unset;
+    margin-block-end: unset;
+}
+
+h3 {
+    margin-block-start: unset;
+    margin-block-end: unset;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.h3TitreMenu {
+    margin-block-start: unset;
+    margin-block-end: unset;
+    text-decoration: none;
+    text-overflow: unset;
+    overflow: unset;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.Display_Inline_Flex {
+    display: inline-flex;
+}
+
+.CenterAlignSelf {
+    align-self: center;
+    color: darkslategray;
+}
+
+.BackgroundGreyColor {
+    background-color: #EAEAEA;
+}
+
+.IconSize {
+    font-size: small;
+}
+
+.MarginTop20 {
+    margin-top: 20px;
+}
+
+.MarginBottom20 {
+    margin-bottom: 20px;
+}
+
+.MarginRight15 {
+    margin-right: 15px;
+}
+
+.ColorWhite {
+    color: white;
+}
+
+.WebKit_Center {
+    text-align: -webkit-center;
+}
