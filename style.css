@@ -262,10 +262,9 @@ body {
 
 .BorderRadiusCircle {
   width: 25px;
-  height: 25px;
   display: flex;
   align-items: center;
-  border-radius: 100px;
+  border-radius: 50%;
   background-color: #9356DC;
   color: white;
   justify-content: center;
