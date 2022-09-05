@@ -9,7 +9,7 @@
 .restauration {
     &__cartes {
         display: grid;
-        grid-template-rows: repeat(4, 1fr);
+        grid-template-rows: repeat(1fr, 4);
         grid-template-columns: 1fr;
         grid-gap: 20px;
         padding: 20px;
@@ -90,17 +90,6 @@
                 opacity: 0;
                 transition: 0.5s;
             }
-        }
-    }
-}
-
-@media screen and (min-width: 700px) {
-    .restaurations {
-        &-carte {
-            display: grid;
-            grid-template-rows: 1fr 1fr;
-            grid-template-columns: 1fr 1fr;
-            grid-gap: 20px;
         }
     }
 }
