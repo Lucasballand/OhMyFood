@@ -1,6 +1,7 @@
 @import "./sass/base.scss";
 @import "./sass/layouts/header.scss";
 @import "./sass/animations.scss";
+@import "./sass/restaurations.scss";
 
 .image_size {
     width: 100%;
@@ -190,6 +191,8 @@
 
 /* -- Fin Icon Modifs -- */
 
+/* -- Processus de réservations -- */
+
 .processus__container {
     padding: 25px 0;
     width: 100%;
@@ -265,4 +268,20 @@
         width: 90%;
         align-self: center;
     }
+
+    .processus__steps
+    {
+        flex-flow: wrap;
+        justify-content: space-around;
+    }
+
+    .restauration {
+        &-carte {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+        }
+    }
+    
 }
