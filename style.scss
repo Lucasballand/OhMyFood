@@ -23,8 +23,8 @@
 .ButtonStyle {
     border-width: 0;
     border-radius: 20px 20px 20px 20px;
-    width: 35%;
-    height: 40px;
+    width: 200px;
+    height: 45px;
     background: linear-gradient(to bottom right, #FF79DA, #9356DC);
     color: white;
     box-shadow: 2px 2px 10px #00000033;
@@ -262,17 +262,15 @@
         height: auto;
     }
 
-    .Menu_Presentation
-    {
+    .Menu_Presentation {
         display: flex;
         width: 90%;
         align-self: center;
     }
 
-    .processus__steps
-    {
+    .processus__steps {
         flex-flow: wrap;
         justify-content: space-around;
     }
-    
+
 }
