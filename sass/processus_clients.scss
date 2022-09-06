@@ -1,0 +1,87 @@
+/* -- Processus de réservations -- */
+
+.processus__container {
+    padding: 25px 0;
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.processus {
+    width: 95%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.processus_title {
+    margin: 0;
+}
+
+.processus__step {
+    display: flex;
+    align-items: center;
+    background: #f6f6f6;
+    height: 50px;
+    width: auto;
+    margin: 10px 20px;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.16);
+}
+
+.processus__step:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    transition: .3s;
+    background: white;
+}
+
+.processus__nombres {
+    background-color: #9356DC;
+    color: white;
+    position: absolute;
+    padding: 3px 8px 3px 8px;
+    border-radius: 50%;
+    transform: translate(-15px);
+}
+
+.processus__icone {
+    color: #7E7E7E;
+    margin: 0 20px;
+}
+
+.processus__steps {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.processus__texte {
+    margin-right: 20px;
+}
+
+/* -- Media Queries -- */
+
+@media screen and (min-width : 700px) {
+    #bloc_page {
+        width: 100%;
+        height: auto;
+    }
+
+    .Menu_Presentation {
+        display: flex;
+        width: 90%;
+        align-self: center;
+    }
+
+    .processus__steps {
+        flex-flow: wrap;
+        justify-content: space-around;
+    }
+
+}

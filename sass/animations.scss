@@ -45,8 +45,8 @@
 /* -- Spinner Loader -- */
 
 .SpinnerLoader {
-    $animation-duration: 1s;
-    $animation-count: 1;
+    $animation-duration: 0s;
+    $animation-count: 0;
     position: fixed;
     display: grid;
     place-items: center;
