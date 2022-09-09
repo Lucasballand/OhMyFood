@@ -204,7 +204,7 @@ body {
   background-color: #ffffff;
   opacity: 0.9;
   z-index: 1;
-  animation: disparition 500ms 0s forwards;
+  animation: disparition 500ms 4s forwards;
   transform-origin: top;
 }
 .SpinnerLoader::after {
@@ -214,7 +214,7 @@ body {
   border-right: 5px solid transparent;
   border-top: 5px solid #9356dc;
   border-radius: 50%;
-  animation: spin 0s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 @keyframes disparition {
