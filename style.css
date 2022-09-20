@@ -230,6 +230,9 @@ body {
     transform: rotate(360deg);
   }
 }
+
+/* -- Spinner Loader -- */
+
 .restaurations {
   margin: 0;
   background: #f6f6f6;
