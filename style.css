@@ -230,9 +230,6 @@ body {
     transform: rotate(360deg);
   }
 }
-
-/* -- Spinner Loader -- */
-
 .restaurations {
   margin: 0;
   background: #f6f6f6;
@@ -522,6 +519,10 @@ body {
 .processus__icone {
   color: #7E7E7E;
   margin: 0 20px;
+}
+
+.processus__icone:hover {
+  color: #9356DC;
 }
 
 .processus__steps {
